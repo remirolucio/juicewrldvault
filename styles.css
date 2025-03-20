@@ -15,6 +15,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 300px;
 }
 
 h1 {
@@ -41,4 +42,13 @@ button:hover {
 #message {
     margin-top: 20px;
     font-size: 1.2em;
+}
+
+#musicList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#musicList li {
+    margin: 5px 0;
 }
